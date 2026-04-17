@@ -164,7 +164,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cseb-active
-  namespace: {{ .Values.namespace }}
 spec:
   selector:
     app: skillexchange-app
@@ -178,7 +177,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cseb-preview
-  namespace: {{ .Values.namespace }}
 spec:
   selector:
     app: skillexchange-app
