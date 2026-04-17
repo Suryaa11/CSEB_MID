@@ -12,4 +12,4 @@ spec:
             value: /
       backendRefs:
         - name: cseb-active  # ArgoCD will ensure this points to the "Live" version
-          port: 80
+          port: 3000
