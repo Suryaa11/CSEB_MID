@@ -9,10 +9,10 @@ spec:
     repoURL: https://github.com/Suryaa11/CSEB_MID.git
     targetRevision: main
     path: k8s
-    helm:
-      values: |
-        userprofile:
-          activeVersion: blue
+    # helm:
+    #   values: |
+    #     userprofile:
+    #       activeVersion: blue
       # valueFiles:
       #   - values.yaml
   destination:
